@@ -1,0 +1,43 @@
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.csprojAssemblyReference.cache
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\obj\Debug\App.g.cs
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF_MarkupCompile.cache
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\bin\Debug\FifteenWPF.exe.config
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\bin\Debug\FifteenWPF.exe
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\bin\Debug\FifteenWPF.pdb
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\obj\Debug\MainWindow.g.cs
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF_MarkupCompile.lref
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\obj\Debug\MainWindow.baml
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.g.resources
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.Properties.Resources.resources
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.csproj.GenerateResource.cache
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.csproj.CoreCompileInputs.cache
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.exe
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.pdb
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\bin\Debug\GameLibrary.dll
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\bin\Debug\GameLibrary.pdb
+D:\project\lab OOP\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.csproj.CopyComplete
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\bin\Debug\FifteenWPF.exe.config
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\bin\Debug\FifteenWPF.exe
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\bin\Debug\FifteenWPF.pdb
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\bin\Debug\GameLibrary.dll
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\bin\Debug\GameLibrary.pdb
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.csprojAssemblyReference.cache
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\obj\Debug\MainWindow.g.cs
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\obj\Debug\App.g.cs
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF_MarkupCompile.cache
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF_MarkupCompile.lref
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\obj\Debug\MainWindow.baml
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.g.resources
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.Properties.Resources.resources
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.csproj.GenerateResource.cache
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.csproj.CoreCompileInputs.cache
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.csproj.CopyComplete
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.exe
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.pdb
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.csprojAssemblyReference.cache
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\MainWindow.g.cs
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\App.g.cs
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF_MarkupCompile.cache
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF_MarkupCompile.lref
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.exe
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.pdb

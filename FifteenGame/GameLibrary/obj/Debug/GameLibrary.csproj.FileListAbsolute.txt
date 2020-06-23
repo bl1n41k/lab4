@@ -1,0 +1,12 @@
+D:\project\lab OOP\lab4\FifteenGame\GameLibrary\bin\Debug\GameLibrary.dll
+D:\project\lab OOP\lab4\FifteenGame\GameLibrary\bin\Debug\GameLibrary.pdb
+D:\project\lab OOP\lab4\FifteenGame\GameLibrary\obj\Debug\GameLibrary.csprojAssemblyReference.cache
+D:\project\lab OOP\lab4\FifteenGame\GameLibrary\obj\Debug\GameLibrary.csproj.CoreCompileInputs.cache
+D:\project\lab OOP\lab4\FifteenGame\GameLibrary\obj\Debug\GameLibrary.dll
+D:\project\lab OOP\lab4\FifteenGame\GameLibrary\obj\Debug\GameLibrary.pdb
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\GameLibrary\bin\Debug\GameLibrary.dll
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\GameLibrary\bin\Debug\GameLibrary.pdb
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\GameLibrary\obj\Debug\GameLibrary.csproj.CoreCompileInputs.cache
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\GameLibrary\obj\Debug\GameLibrary.dll
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\GameLibrary\obj\Debug\GameLibrary.pdb
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\GameLibrary\obj\Debug\GameLibrary.csprojAssemblyReference.cache

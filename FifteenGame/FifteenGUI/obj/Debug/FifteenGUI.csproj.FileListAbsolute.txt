@@ -1,0 +1,42 @@
+D:\project\lab OOP\lab4\FifteenGame\FifteenGUI\bin\Debug\FifteenGUI.exe.config
+D:\project\lab OOP\lab4\FifteenGame\FifteenGUI\bin\Debug\FifteenGUI.exe
+D:\project\lab OOP\lab4\FifteenGame\FifteenGUI\bin\Debug\FifteenGUI.pdb
+D:\project\lab OOP\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.csprojAssemblyReference.cache
+D:\project\lab OOP\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.Fifteen.resources
+D:\project\lab OOP\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.Properties.Resources.resources
+D:\project\lab OOP\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.csproj.GenerateResource.cache
+D:\project\lab OOP\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.csproj.CoreCompileInputs.cache
+D:\project\lab OOP\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.exe
+D:\project\lab OOP\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.pdb
+D:\project\lab OOP\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.Victory.resources
+D:\project\lab OOP\lab4\FifteenGame\FifteenGUI\bin\Debug\GameLibrary.dll
+D:\project\lab OOP\lab4\FifteenGame\FifteenGUI\bin\Debug\GameLibrary.pdb
+D:\project\lab OOP\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.csproj.CopyComplete
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenGUI\bin\Debug\FifteenGUI.exe.config
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenGUI\bin\Debug\FifteenGUI.exe
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenGUI\bin\Debug\FifteenGUI.pdb
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenGUI\bin\Debug\GameLibrary.dll
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenGUI\bin\Debug\GameLibrary.pdb
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.csprojAssemblyReference.cache
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.Fifteen.resources
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.Properties.Resources.resources
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.Victory.resources
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.csproj.GenerateResource.cache
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.csproj.CoreCompileInputs.cache
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.csproj.CopyComplete
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.exe
+C:\Users\BL1N41K\Desktop\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.pdb
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUI\bin\Debug\FifteenGUI.exe.config
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUI\bin\Debug\FifteenGUI.exe
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUI\bin\Debug\FifteenGUI.pdb
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUI\bin\Debug\GameLibrary.dll
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUI\bin\Debug\GameLibrary.pdb
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.csprojAssemblyReference.cache
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.Fifteen.resources
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.Properties.Resources.resources
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.Victory.resources
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.csproj.GenerateResource.cache
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.csproj.CoreCompileInputs.cache
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.csproj.CopyComplete
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.exe
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUI\obj\Debug\FifteenGUI.pdb

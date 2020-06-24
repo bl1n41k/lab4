@@ -79,6 +79,7 @@
 			this.Name = "Victory";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
 			this.Text = "Победа";
+			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Victory_FormClosing);
 			this.Load += new System.EventHandler(this.Victory_Load);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);

@@ -10,3 +10,8 @@ C:\Users\BL1N41K\Desktop\lab4\FifteenGame\GameLibrary\obj\Debug\GameLibrary.cspr
 C:\Users\BL1N41K\Desktop\lab4\FifteenGame\GameLibrary\obj\Debug\GameLibrary.dll
 C:\Users\BL1N41K\Desktop\lab4\FifteenGame\GameLibrary\obj\Debug\GameLibrary.pdb
 C:\Users\BL1N41K\Desktop\lab4\FifteenGame\GameLibrary\obj\Debug\GameLibrary.csprojAssemblyReference.cache
+D:\4 семестр\ООП\lab4\FifteenGame\GameLibrary\bin\Debug\GameLibrary.dll
+D:\4 семестр\ООП\lab4\FifteenGame\GameLibrary\bin\Debug\GameLibrary.pdb
+D:\4 семестр\ООП\lab4\FifteenGame\GameLibrary\obj\Debug\GameLibrary.csproj.CoreCompileInputs.cache
+D:\4 семестр\ООП\lab4\FifteenGame\GameLibrary\obj\Debug\GameLibrary.dll
+D:\4 семестр\ООП\lab4\FifteenGame\GameLibrary\obj\Debug\GameLibrary.pdb

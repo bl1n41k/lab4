@@ -41,6 +41,7 @@
 			this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
 			this.TimeStatus = new System.Windows.Forms.ToolStripStatusLabel();
 			this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+			this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
 			this.menu.SuspendLayout();
 			this.statusStrip1.SuspendLayout();
 			this.SuspendLayout();
@@ -85,7 +86,7 @@
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.9453F));
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel1.Size = new System.Drawing.Size(817, 497);
+			this.tableLayoutPanel1.Size = new System.Drawing.Size(817, 495);
 			this.tableLayoutPanel1.TabIndex = 1;
 			// 
 			// timer1
@@ -95,47 +96,58 @@
 			// statusStrip1
 			// 
 			this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1,
-            this.CountStatus,
+            this.toolStripStatusLabel3,
+            this.toolStripStatusLabel4,
             this.toolStripStatusLabel2,
             this.TimeStatus,
-            this.toolStripStatusLabel3});
-			this.statusStrip1.Location = new System.Drawing.Point(0, 521);
+            this.toolStripStatusLabel1,
+            this.CountStatus});
+			this.statusStrip1.Location = new System.Drawing.Point(0, 519);
 			this.statusStrip1.Name = "statusStrip1";
 			this.statusStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-			this.statusStrip1.Size = new System.Drawing.Size(817, 22);
+			this.statusStrip1.Size = new System.Drawing.Size(817, 24);
 			this.statusStrip1.TabIndex = 3;
 			this.statusStrip1.Text = "statusStrip1";
 			// 
 			// toolStripStatusLabel1
 			// 
 			this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-			this.toolStripStatusLabel1.Size = new System.Drawing.Size(33, 17);
+			this.toolStripStatusLabel1.Size = new System.Drawing.Size(33, 19);
 			this.toolStripStatusLabel1.Text = "Ход: ";
 			// 
 			// CountStatus
 			// 
 			this.CountStatus.Name = "CountStatus";
-			this.CountStatus.Size = new System.Drawing.Size(13, 17);
+			this.CountStatus.Size = new System.Drawing.Size(13, 19);
 			this.CountStatus.Text = "0";
 			// 
 			// toolStripStatusLabel2
 			// 
 			this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-			this.toolStripStatusLabel2.Size = new System.Drawing.Size(54, 17);
+			this.toolStripStatusLabel2.Size = new System.Drawing.Size(54, 19);
 			this.toolStripStatusLabel2.Text = "Таймер: ";
 			// 
 			// TimeStatus
 			// 
+			this.TimeStatus.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right;
 			this.TimeStatus.Name = "TimeStatus";
-			this.TimeStatus.Size = new System.Drawing.Size(49, 17);
+			this.TimeStatus.Size = new System.Drawing.Size(53, 19);
 			this.TimeStatus.Text = "00:00:00";
 			// 
 			// toolStripStatusLabel3
 			// 
+			this.toolStripStatusLabel3.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right;
 			this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-			this.toolStripStatusLabel3.Size = new System.Drawing.Size(141, 17);
+			this.toolStripStatusLabel3.Size = new System.Drawing.Size(145, 19);
 			this.toolStripStatusLabel3.Text = "Backspace - отмена хода";
+			// 
+			// toolStripStatusLabel4
+			// 
+			this.toolStripStatusLabel4.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right;
+			this.toolStripStatusLabel4.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
+			this.toolStripStatusLabel4.Size = new System.Drawing.Size(176, 19);
+			this.toolStripStatusLabel4.Text = "Space - моментальная победа";
 			// 
 			// Fifteen
 			// 
@@ -151,6 +163,7 @@
 			this.Name = "Fifteen";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Пятнашки";
+			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Fifteen_FormClosing);
 			this.Load += new System.EventHandler(this.Fifteen_Load);
 			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Fifteen_KeyDown);
 			this.menu.ResumeLayout(false);
@@ -175,6 +188,7 @@
         private System.Windows.Forms.ToolStripStatusLabel TimeStatus;
         private System.Windows.Forms.ToolStripMenuItem отменаХодаToolStripMenuItem;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
-    }
+		private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
+	}
 }
 

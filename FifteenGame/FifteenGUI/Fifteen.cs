@@ -23,7 +23,7 @@ namespace FifteenGUI
             InitializeComponent();
             game = new GameLibrary.Game(4);
             Rand = new Random();
-            timer1.Interval = 500; 
+            timer1.Interval = 500;
         }
 
         private void Fifteen_Load(object sender, EventArgs e)
@@ -58,18 +58,17 @@ namespace FifteenGUI
             {
                 Victory victory = new Victory(count, sec);
                 victory.ShowDialog();
-                GameStart();
             }
             this.ActiveControl = null;
         }
 
         private Button GetButton(int index)//по номеру возвращает кнопку
         {
-            string but = "button" + index.ToString();
+            string buttons = "button" + index.ToString();
             foreach (Control c in tableLayoutPanel1.Controls)
             {
                 Button button = c as Button;
-                if (button != null && button.Name == but) 
+                if (button != null && button.Name == buttons) 
                     return button;
             }
             return null;
@@ -112,6 +111,12 @@ namespace FifteenGUI
         private void Fifteen_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyValue == 8) Restore(); // клавиша Backspace отменяет ход
+            if (e.KeyValue == 32) // читы 
+            {
+                Victory victory = new Victory(count, sec); 
+                victory.ShowDialog();
+                GameStart();
+            }
         }
         private void Restore()
         {
@@ -122,6 +127,15 @@ namespace FifteenGUI
                 CountStatus.Text = count.ToString();
                 RefreshButtonField(); //обновление измененных полей
             }
+        }
+
+        private void Fifteen_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+            MessageBoxButtons change = MessageBoxButtons.YesNo;
+            DialogResult result = MessageBox.Show(this, "Вы действительно хотите закрыть приложение?", "Закрыть приложение", change);
+            if (result == DialogResult.No) e.Cancel = true;
+            else Application.ExitThread();
         }
     }
 }

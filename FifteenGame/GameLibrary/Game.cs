@@ -12,13 +12,12 @@ namespace GameLibrary
         int size;
         public int count = 0, x0, y0; 
         Random Rand = new Random();
-        Carataker Save;
+        Carataker Save = new Carataker();
 
         public Game(int size) 
         {
             this.size = size;
             field = new int[size, size];
-            Save = new Carataker();
         }
         private int CoordinatesToPosition(int x, int y)//метод преобразования координат двумерного массива в номер кнопки
         {
@@ -88,11 +87,11 @@ namespace GameLibrary
         }
         public void GameSave() //сохранить ход
         { 
-            Save.In(new Memento(field, size)); 
+            Save.SaveStep(new Memento(field, size)); 
         }
         public void GameRestore() //вывод сохранения
         {
-            Memento memento = Save.Out();
+            Memento memento = Save.BackStep();
             int[,] fieldSave = memento.Getfield();
             for (int i = 0; i < size; ++i)
                 for (int j = 0; j < size; ++j)

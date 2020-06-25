@@ -1,0 +1,15 @@
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\bin\Debug\FifteenGUIDynamic.exe.config
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\bin\Debug\FifteenGUIDynamic.exe
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\bin\Debug\FifteenGUIDynamic.pdb
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\bin\Debug\GameLibrary.dll
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\bin\Debug\GameLibrary.pdb
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.csprojAssemblyReference.cache
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.Fifteen.resources
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.Properties.Resources.resources
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.ReSize.resources
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.Victory.resources
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.csproj.GenerateResource.cache
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.csproj.CoreCompileInputs.cache
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.csproj.CopyComplete
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.exe
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.pdb

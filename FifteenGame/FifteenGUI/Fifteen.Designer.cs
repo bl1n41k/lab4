@@ -36,12 +36,12 @@
 			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
 			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-			this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-			this.CountStatus = new System.Windows.Forms.ToolStripStatusLabel();
-			this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
-			this.TimeStatus = new System.Windows.Forms.ToolStripStatusLabel();
 			this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
 			this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
+			this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+			this.TimeStatus = new System.Windows.Forms.ToolStripStatusLabel();
+			this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+			this.CountStatus = new System.Windows.Forms.ToolStripStatusLabel();
 			this.menu.SuspendLayout();
 			this.statusStrip1.SuspendLayout();
 			this.SuspendLayout();
@@ -53,7 +53,7 @@
             this.отменаХодаToolStripMenuItem});
 			this.menu.Location = new System.Drawing.Point(0, 0);
 			this.menu.Name = "menu";
-			this.menu.Size = new System.Drawing.Size(817, 24);
+			this.menu.Size = new System.Drawing.Size(508, 24);
 			this.menu.TabIndex = 0;
 			this.menu.Text = "menuStrip1";
 			// 
@@ -86,7 +86,7 @@
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.9453F));
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel1.Size = new System.Drawing.Size(817, 495);
+			this.tableLayoutPanel1.Size = new System.Drawing.Size(508, 467);
 			this.tableLayoutPanel1.TabIndex = 1;
 			// 
 			// timer1
@@ -102,37 +102,12 @@
             this.TimeStatus,
             this.toolStripStatusLabel1,
             this.CountStatus});
-			this.statusStrip1.Location = new System.Drawing.Point(0, 519);
+			this.statusStrip1.Location = new System.Drawing.Point(0, 491);
 			this.statusStrip1.Name = "statusStrip1";
 			this.statusStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-			this.statusStrip1.Size = new System.Drawing.Size(817, 24);
+			this.statusStrip1.Size = new System.Drawing.Size(508, 24);
 			this.statusStrip1.TabIndex = 3;
 			this.statusStrip1.Text = "statusStrip1";
-			// 
-			// toolStripStatusLabel1
-			// 
-			this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-			this.toolStripStatusLabel1.Size = new System.Drawing.Size(33, 19);
-			this.toolStripStatusLabel1.Text = "Ход: ";
-			// 
-			// CountStatus
-			// 
-			this.CountStatus.Name = "CountStatus";
-			this.CountStatus.Size = new System.Drawing.Size(13, 19);
-			this.CountStatus.Text = "0";
-			// 
-			// toolStripStatusLabel2
-			// 
-			this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-			this.toolStripStatusLabel2.Size = new System.Drawing.Size(54, 19);
-			this.toolStripStatusLabel2.Text = "Таймер: ";
-			// 
-			// TimeStatus
-			// 
-			this.TimeStatus.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right;
-			this.TimeStatus.Name = "TimeStatus";
-			this.TimeStatus.Size = new System.Drawing.Size(53, 19);
-			this.TimeStatus.Text = "00:00:00";
 			// 
 			// toolStripStatusLabel3
 			// 
@@ -149,11 +124,36 @@
 			this.toolStripStatusLabel4.Size = new System.Drawing.Size(176, 19);
 			this.toolStripStatusLabel4.Text = "Space - моментальная победа";
 			// 
+			// toolStripStatusLabel2
+			// 
+			this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+			this.toolStripStatusLabel2.Size = new System.Drawing.Size(54, 19);
+			this.toolStripStatusLabel2.Text = "Таймер: ";
+			// 
+			// TimeStatus
+			// 
+			this.TimeStatus.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right;
+			this.TimeStatus.Name = "TimeStatus";
+			this.TimeStatus.Size = new System.Drawing.Size(53, 19);
+			this.TimeStatus.Text = "00:00:00";
+			// 
+			// toolStripStatusLabel1
+			// 
+			this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+			this.toolStripStatusLabel1.Size = new System.Drawing.Size(33, 19);
+			this.toolStripStatusLabel1.Text = "Ход: ";
+			// 
+			// CountStatus
+			// 
+			this.CountStatus.Name = "CountStatus";
+			this.CountStatus.Size = new System.Drawing.Size(13, 19);
+			this.CountStatus.Text = "0";
+			// 
 			// Fifteen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(817, 543);
+			this.ClientSize = new System.Drawing.Size(508, 515);
 			this.Controls.Add(this.tableLayoutPanel1);
 			this.Controls.Add(this.menu);
 			this.Controls.Add(this.statusStrip1);

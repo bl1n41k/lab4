@@ -13,11 +13,11 @@ namespace GameLibrary
         {
             Save = new Stack<Memento>();
         }
-        public void In(Memento memento)
+        public void SaveStep(Memento memento)
         {
             Save.Push(memento);
         }
-        public Memento Out()
+        public Memento BackStep()
         {
            return Save.Pop();
         }

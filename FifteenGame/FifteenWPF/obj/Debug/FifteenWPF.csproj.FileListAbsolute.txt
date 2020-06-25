@@ -41,3 +41,14 @@ D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF_Mark
 D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF_MarkupCompile.lref
 D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.exe
 D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.pdb
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\bin\Debug\FifteenWPF.exe.config
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\bin\Debug\FifteenWPF.exe
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\bin\Debug\FifteenWPF.pdb
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\bin\Debug\GameLibrary.dll
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\bin\Debug\GameLibrary.pdb
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\MainWindow.baml
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.g.resources
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.Properties.Resources.resources
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.csproj.GenerateResource.cache
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.csproj.CoreCompileInputs.cache
+D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPF\obj\Debug\FifteenWPF.csproj.CopyComplete

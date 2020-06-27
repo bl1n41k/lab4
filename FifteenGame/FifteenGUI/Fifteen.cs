@@ -58,6 +58,7 @@ namespace FifteenGUI
             {
                 Victory victory = new Victory(count, sec);
                 victory.ShowDialog();
+                GameStart();
             }
             this.ActiveControl = null;
         }
@@ -113,6 +114,7 @@ namespace FifteenGUI
             if (e.KeyValue == 8) Restore(); // клавиша Backspace отменяет ход
             if (e.KeyValue == 32) // читы 
             {
+                timer1.Stop();
                 Victory victory = new Victory(count, sec); 
                 victory.ShowDialog();
                 GameStart();
@@ -127,14 +129,24 @@ namespace FifteenGUI
                 CountStatus.Text = count.ToString();
                 RefreshButtonField(); //обновление измененных полей
             }
+            else
+            {
+                timer1.Stop();
+                MessageBox.Show("Вы ещё не ходили!");
+                timer1.Start();
+            }
         }
 
         private void Fifteen_FormClosing(object sender, FormClosingEventArgs e)
         {
-            
+            timer1.Stop();
             MessageBoxButtons change = MessageBoxButtons.YesNo;
             DialogResult result = MessageBox.Show(this, "Вы действительно хотите закрыть приложение?", "Закрыть приложение", change);
-            if (result == DialogResult.No) e.Cancel = true;
+            if (result == DialogResult.No)
+            {
+                e.Cancel = true;
+                timer1.Start();
+            }
             else Application.ExitThread();
         }
     }

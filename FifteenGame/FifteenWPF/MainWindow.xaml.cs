@@ -20,6 +20,7 @@ namespace FifteenWPF
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
+    
     public partial class MainWindow : Window
     {
         GameLibrary.Game game;
@@ -77,6 +78,12 @@ namespace FifteenWPF
                 count--;
                 CountStatus.Content = count.ToString();
                 RefreshButtonField(); //обновление измененных полей
+            }
+            else
+            {
+                timer1.Stop();
+                MessageBox.Show("Вы ещё не ходили!");
+                timer1.Start();
             }
         }
      

@@ -20,7 +20,7 @@ namespace FifteenGUI
         {
             InitializeComponent();
             this.count = count;
-            this.time = time;   
+            this.time = time;
         }
 
         private void Victory_Load(object sender, EventArgs e)

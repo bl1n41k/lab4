@@ -23,7 +23,7 @@ namespace FifteenGUIDynamic
             InitializeComponent();
             game = new GameLibrary.Game(size);
             Rand = new Random();
-            timer1.Interval = 500;
+            timer1.Interval = 500;        
         }
 
         private void Button_Click(object sender, EventArgs e)
@@ -39,6 +39,7 @@ namespace FifteenGUIDynamic
             {
                 Victory victory = new Victory(count, sec);
                 victory.ShowDialog();
+                GameStart();
             }
             this.ActiveControl = null;
         }
@@ -78,6 +79,13 @@ namespace FifteenGUIDynamic
                 CountStatus.Text = count.ToString();
                 RefreshButtonField(); //обновление измененных полей
             }
+            else
+            {
+                timer1.Stop();
+                MessageBox.Show("Вы ещё не ходили!");
+                timer1.Start();
+            }
+
         }
 
         private void startMenu_Click_1(object sender, EventArgs e)
@@ -92,7 +100,7 @@ namespace FifteenGUIDynamic
 
         private void ИзменитьРазмерtoolStripMenuItem_Click(object sender, EventArgs e)
         {
-            timer1.Enabled = false;
+            timer1.Stop();
             ReSize form = new ReSize();
             form.ShowDialog();
             int _size = form.Size;
@@ -102,7 +110,7 @@ namespace FifteenGUIDynamic
                 game = new GameLibrary.Game(_size);
                 GameStart();
             }
-            timer1.Enabled = true;
+            timer1.Start();
         }
         private void NewField(int _size)
         {
@@ -141,9 +149,14 @@ namespace FifteenGUIDynamic
 
         private void Fifteen_FormClosing_1(object sender, FormClosingEventArgs e)
         {
+            timer1.Stop();
             MessageBoxButtons change = MessageBoxButtons.YesNo;
             DialogResult result = MessageBox.Show(this, "Вы действительно хотите закрыть приложение?", "Закрыть приложение", change);
-            if (result == DialogResult.No) e.Cancel = true;
+            if (result == DialogResult.No)
+            {
+                e.Cancel = true;
+                timer1.Start();
+            }
             else Application.ExitThread();
         }
 
@@ -158,6 +171,7 @@ namespace FifteenGUIDynamic
             if (e.KeyValue == 8) Restore(); // клавиша Backspace отменяет ход
             if (e.KeyValue == 32) // читы 
             {
+                timer1.Stop();
                 Victory victory = new Victory(count, sec);
                 victory.ShowDialog();
                 GameStart();

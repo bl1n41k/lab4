@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -121,15 +122,21 @@ namespace FifteenWPFDynamic
         }
         private void ChangeSizeClick(object sender, RoutedEventArgs e)
         {
+            timer1.Stop();
             ReSize window = new ReSize();
             window.ShowDialog();
             int _size = window.Size;
-            if (_size != -1)
+            if (_size != -1 && _size != size)
             {
                 ChangeGameField(_size);
                 game = new GameLibrary.Game(_size);
                 StartGame(sender, e);
             }
+            else 
+            {
+                MessageBox.Show("Поле уже такого размера!"); 
+            }
+            timer1.Start();
         }
         private void TimerTick(object sender, EventArgs e)
         {
@@ -148,6 +155,12 @@ namespace FifteenWPFDynamic
                 count--;
                 (info.Items[1] as StatusBarItem).Content = count.ToString();
                 RefreshButtonField(); //обновление измененных полей
+            }
+            else
+            {
+                timer1.Stop();
+                MessageBox.Show("Вы ещё не ходили!");
+                timer1.Start();
             }
         }
 
@@ -182,6 +195,7 @@ namespace FifteenWPFDynamic
             if (e.Key == Key.Back) Restore(); // клавиша Backspace отменяет ход
             if (e.Key == Key.Space) // читы 
             {
+                timer1.Stop();
                 MessageBoxResult result = MessageBox.Show("Вы хотите начать новую игру?", "Победа!", MessageBoxButton.YesNo, MessageBoxImage.Question);
                 if (result == MessageBoxResult.Yes)
                 {

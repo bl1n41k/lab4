@@ -29,7 +29,7 @@ namespace FifteenWPFDynamic
         DispatcherTimer timer1;
         Random Rand = new Random();
         GameLibrary.Game game;
-        int count, size;
+        private int count, size;
         DateTime timeDate;
         TimeSpan sec;
         public MainWindow()
@@ -48,7 +48,6 @@ namespace FifteenWPFDynamic
             {
                 Header = "Отменa хода",
                 FontSize = 16,
-                IsEnabled = false,
                 HorizontalAlignment = HorizontalAlignment.Stretch
             });
             (menu.Items[2] as MenuItem).Click += CancelMove;
@@ -81,7 +80,7 @@ namespace FifteenWPFDynamic
             timeDate = DateTime.Now; //текущее время
             timer1.Start();
             game.Start();
-            for (int i = 0; i < Rand.Next(100); i++) game.ShiftRandom();
+            for (int i = 0; i < Rand.Next(100, 500); i++) game.ShiftRandom();
             RefreshButtonField();
 
         }

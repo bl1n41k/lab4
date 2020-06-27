@@ -14,17 +14,16 @@ namespace FifteenGUIDynamic
 	{
         GameLibrary.Game game;
         Random Rand;
-        int count;
-        int size;
+        private int count;
+        private int size = 4;
         DateTime timeDate;
         TimeSpan sec;
         public Fifteen()
-        {
+        { 
             InitializeComponent();
-            game = new GameLibrary.Game(4);
+            game = new GameLibrary.Game(size);
             Rand = new Random();
             timer1.Interval = 500;
-            size = 4;
         }
 
         private void Button_Click(object sender, EventArgs e)
@@ -70,16 +69,6 @@ namespace FifteenGUIDynamic
             timer1.Start();
         }
   
-        private void Fifteen_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyValue == 8) Restore(); // клавиша Backspace отменяет ход
-            if (e.KeyValue == 32) // читы 
-            {
-                Victory victory = new Victory(count, sec);
-                victory.ShowDialog();
-                GameStart();
-            }
-        }
         private void Restore()
         {
             if (count > 0)
@@ -122,9 +111,10 @@ namespace FifteenGUIDynamic
             tableLayoutPanel1.ColumnCount = size;
             tableLayoutPanel1.RowStyles.Clear();
             tableLayoutPanel1.ColumnStyles.Clear();
+          
             for (int i = 0; i < tableLayoutPanel1.RowCount; i++)
                 tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, (float)100 / tableLayoutPanel1.RowCount));
-            for (int i = 0; i < tableLayoutPanel1.ColumnCount; i++)
+              for (int i = 0; i < tableLayoutPanel1.ColumnCount; i++)
                 tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, (float)100 / tableLayoutPanel1.ColumnCount));
             tableLayoutPanel1.Controls.Clear();
             for (int i = 0; i < tableLayoutPanel1.RowCount; i++)
@@ -141,23 +131,10 @@ namespace FifteenGUIDynamic
                     button.Click += Button_Click;
                     tableLayoutPanel1.Controls.Add(button, j, i);
                 }
-
         }
         private void Fifteen_Load_1(object sender, EventArgs e)
         {
-            const int n = 4;
-            for (int i = 0; i < n; ++i)
-                for (int j = 0; j < n; ++j)
-                {
-                    Button button = new Button();
-                    button.Dock = DockStyle.Fill;
-                    button.Text = "*";
-                    button.Font = new Font("Times New Roman", 20);
-                    button.Tag = i + j * n;
-                    button.Name = "button" + (i + j * n).ToString();
-                    button.Click += Button_Click;
-                    tableLayoutPanel1.Controls.Add(button, i, j);
-                }
+            NewField(size);
             this.ActiveControl = null;
             GameStart();
         }
@@ -174,6 +151,17 @@ namespace FifteenGUIDynamic
         {
             sec = DateTime.Now.Subtract(timeDate); //секунд с начала игры
             TimeStatus.Text = sec.ToString(@"hh\:mm\:ss");
+        }
+
+        private void Fifteen_KeyDown_1(object sender, KeyEventArgs e)
+        {
+            if (e.KeyValue == 8) Restore(); // клавиша Backspace отменяет ход
+            if (e.KeyValue == 32) // читы 
+            {
+                Victory victory = new Victory(count, sec);
+                victory.ShowDialog();
+                GameStart();
+            }
         }
     }
 }

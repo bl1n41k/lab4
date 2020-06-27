@@ -171,6 +171,7 @@
 			this.Text = "Fifteen";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Fifteen_FormClosing_1);
 			this.Load += new System.EventHandler(this.Fifteen_Load_1);
+			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Fifteen_KeyDown_1);
 			this.menu.ResumeLayout(false);
 			this.menu.PerformLayout();
 			this.statusStrip1.ResumeLayout(false);

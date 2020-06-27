@@ -46,7 +46,7 @@ namespace FifteenWPF
             timeDate = DateTime.Now; //текущее время
             timer1.Start();
             game.Start();
-            for (int i = 0; i < Rand.Next(100); i++) game.ShiftRandom();
+            for (int i = 0; i < Rand.Next(100, 500); i++) game.ShiftRandom();
             RefreshButtonField();
             
         }

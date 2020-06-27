@@ -18,3 +18,23 @@ D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\FifteenW
 D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\FifteenWPFDynamic.csproj.CopyComplete
 D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\FifteenWPFDynamic.exe
 D:\4 семестр\ООП\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\FifteenWPFDynamic.pdb
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\bin\Debug\FifteenWPFDynamic.exe.config
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\bin\Debug\FifteenWPFDynamic.exe
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\bin\Debug\FifteenWPFDynamic.pdb
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\bin\Debug\GameLibrary.dll
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\bin\Debug\GameLibrary.pdb
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\FifteenWPFDynamic.csprojAssemblyReference.cache
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\MainWindow.g.cs
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\ReSize.g.cs
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\App.g.cs
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\FifteenWPFDynamic_MarkupCompile.cache
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\FifteenWPFDynamic_MarkupCompile.lref
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\MainWindow.baml
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\ReSize.baml
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\FifteenWPFDynamic.g.resources
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\FifteenWPFDynamic.Properties.Resources.resources
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\FifteenWPFDynamic.csproj.GenerateResource.cache
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\FifteenWPFDynamic.csproj.CoreCompileInputs.cache
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\FifteenWPFDynamic.csproj.CopyComplete
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\FifteenWPFDynamic.exe
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenWPFDynamic\obj\Debug\FifteenWPFDynamic.pdb

@@ -37,6 +37,7 @@ namespace FifteenGUIDynamic
             }
             if (game.Check())//Завершение игры 
             {
+                timer1.Stop();
                 Victory victory = new Victory(count, sec);
                 victory.ShowDialog();
                 GameStart();

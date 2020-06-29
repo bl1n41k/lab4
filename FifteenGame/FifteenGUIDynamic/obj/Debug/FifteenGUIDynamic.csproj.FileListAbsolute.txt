@@ -13,3 +13,18 @@ D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenG
 D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.csproj.CopyComplete
 D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.exe
 D:\4 семестр\ООП\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.pdb
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenGUIDynamic\bin\Debug\FifteenGUIDynamic.exe.config
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenGUIDynamic\bin\Debug\FifteenGUIDynamic.exe
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenGUIDynamic\bin\Debug\FifteenGUIDynamic.pdb
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenGUIDynamic\bin\Debug\GameLibrary.dll
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenGUIDynamic\bin\Debug\GameLibrary.pdb
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.csprojAssemblyReference.cache
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.Fifteen.resources
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.Properties.Resources.resources
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.ReSize.resources
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.Victory.resources
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.csproj.GenerateResource.cache
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.csproj.CoreCompileInputs.cache
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.csproj.CopyComplete
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.exe
+E:\Учёба\4 семестр\Учебная практика\lab4\FifteenGame\FifteenGUIDynamic\obj\Debug\FifteenGUIDynamic.pdb
